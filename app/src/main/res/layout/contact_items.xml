@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contact_item"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/image_contact"
+        style="@style/ImageContact"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_contactName"
+        style="@style/TextContact"
+        app:layout_constraintStart_toEndOf="@+id/image_contact"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_contactNumber"
+        style="@style/TextContact"
+        app:layout_constraintStart_toEndOf="@+id/image_contact"
+        app:layout_constraintTop_toBottomOf="@+id/text_contactName" />
+
+    <ImageButton
+        android:id="@+id/imagebutton_favorite"
+        style="@style/ButtonFavoriteContact"
+        app:layout_constraintStart_toEndOf="@+id/text_contactName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imagebutton_call"
+        style="@style/ButtonCall"
+        android:background="@drawable/ic_call_black_24dp"
+        app:layout_constraintStart_toEndOf="@+id/imagebutton_favorite"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

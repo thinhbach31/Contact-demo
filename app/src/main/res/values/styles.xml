@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for contact layout's widget -->
+    <style name="ImageContact">
+        <item name="android:background">@drawable/ic_account_box_black_24dp</item>
+        <item name="android:layout_width">@dimen/image_contact_width_height</item>
+        <item name="android:layout_height">@dimen/image_contact_width_height</item>
+        <item name="android:layout_marginStart">@dimen/image_contact_margin</item>
+        <item name="android:layout_marginTop">@dimen/image_contact_margin</item>
+    </style>
+
+    <style name="ButtonFavoriteContact">
+        <item name="android:background">@drawable/ic_star</item>
+        <item name="android:layout_width">@dimen/button_favorite_width_height</item>
+        <item name="android:layout_height">@dimen/button_favorite_width_height</item>
+        <item name="android:layout_marginStart">@dimen/button_favorite_margin</item>
+        <item name="android:layout_marginTop">@dimen/button_favorite_margin</item>
+    </style>
+
+    <style name="TextContact">
+        <item name="android:layout_width">@dimen/text_contact_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/text_contact_margin</item>
+        <item name="android:layout_marginTop">@dimen/text_contact_margin</item>
+        <item name="android:textSize">@dimen/text_contact_size</item>
+    </style>
+
+    <style name="ButtonCall">
+        <item name="android:background">@drawable/ic_call_black_24dp</item>
+        <item name="android:layout_width">@dimen/button_call_width_height</item>
+        <item name="android:layout_height">@dimen/button_call_width_height</item>
+        <item name="android:layout_marginStart">@dimen/button_call_margin</item>
+        <item name="android:layout_marginTop">@dimen/button_call_margin</item>
+    </style>
+
+</resources>
