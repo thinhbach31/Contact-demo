@@ -40,5 +40,4 @@
         <item name="android:layout_marginStart">@dimen/button_call_margin</item>
         <item name="android:layout_marginTop">@dimen/button_call_margin</item>
     </style>
-
 </resources>
